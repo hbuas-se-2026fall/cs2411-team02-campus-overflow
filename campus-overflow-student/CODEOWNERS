@@ -1,0 +1,8 @@
+# 按目录自动指派评审人（把@后面换成你们GitHub用户名）
+/backend/co-qa/                @zyxd336 @Vespersea
+/backend/co-reputation/        @Vespersea @yongbv
+/backend/co-discovery/         @yongbv @ty666-lang
+/backend/co-identity/          @zyxd336 @Vespersea
+/backend/co-shared-kernel/     @zyxd336 @Vespersea
+/frontend/                     @ty666-lang
+/.github/                      @yongbv
