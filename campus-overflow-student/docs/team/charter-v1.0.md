@@ -10,16 +10,18 @@
 | 项目名 | CampusOverflow 校园问答平台 |
 | 团队人数 | 4 人 |
 | 章程版本 | v1.0 |
-| 生效日期 | 第 5 教学周 |
+| 生效日期 | 第 2 教学周（Lab1） |
 
 ## 2. 成员与角色
 
-| 昵称 | 姓名 | 角色 | 主要职责 |
+| GitHub 账号 | 姓名 | 角色 | 主要职责 |
 | --- | --- | --- | --- |
-| zhangsan | 张三 | PO（Product Owner） | 需求梳理、Product Backlog 优先级、Gherkin 验收标准、Sprint Review 验收 |
-| lisi | 李四 | SM（Scrum Master） | 站会/计划会/回顾会组织、CI 维护、DoD 检查、消除障碍 |
-| wangwu | 王五 | Developer | co-qa 问答核心上下文、co-bootstrap 装配与安全、ArchUnit 约束 |
-| zhaoliu | 赵六 | Developer + QA | co-reputation 声誉上下文、co-discovery 发现上下文、Testcontainers 集成测试、覆盖率门禁 |
+| Vespersea | 蔡锦莉 | PO（Product Owner） | 需求梳理、Product Backlog 优先级、Gherkin 验收标准、Sprint Review 验收；仓库与 PR 管理、分支保护维护 |
+| zyxd336 | 张玉馨 | SM（Scrum Master） | 站会/计划会/回顾会组织、DoD 检查、障碍清除、会议纪要与回顾记录 |
+| wuchaoyang | 吴超阳 | Developer（Dev A） | 投票与评论、悬赏、搜索推荐；CI/CD 流水线与部署 |
+| ty666-lang | （姓名待补） | Developer（Dev B） | co-qa 问答核心上下文的后端领域层与应用层、单元测试 |
+
+> 角色按 Lab1 Step1 确认，每个 Sprint 末可投票轮换（SM 与 Dev 互换，PO 不轮换，保证需求连续性）。
 
 ## 3. 团队价值观
 
@@ -87,7 +89,7 @@ type 仅限：`feat` / `fix` / `docs` / `test` / `refactor` / `chore`。
 
 | 成员 | 角色 | 签署方式 |
 | --- | --- | --- |
-| 张三（zhangsan） | PO | commit 签名 |
-| 李四（lisi） | SM | commit 签名 |
-| 王五（wangwu） | Developer | commit 签名 |
-| 赵六（zhaoliu） | Developer + QA | commit 签名 |
+| 蔡锦莉（Vespersea） | PO | commit 签名 |
+| 张玉馨（zyxd336） | SM | commit 签名 |
+| 吴超阳（wuchaoyang） | Developer（Dev A） | commit 签名 |
+| ty666-lang | Developer（Dev B） | commit 签名 |

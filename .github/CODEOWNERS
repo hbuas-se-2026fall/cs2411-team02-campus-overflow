@@ -1,0 +1,30 @@
+# 代码所有者 —— 按限界上下文与目录指定默认评审人
+# 语法：路径模式 后跟一个或多个 @用户
+# 生效条件：仓库需开启 "Require review from Code Owners"（分支保护规则里勾选）
+
+# 兜底：任何变更都需要 PO 或 SM 之一过目
+*                                   @Vespersea @zyxd336
+
+# 团队章程、协作规范、看板说明
+/docs/team/                         @Vespersea @zyxd336
+
+# 架构决策与领域建模文档
+/docs/adr/                          @Vespersea
+/docs/storming/                     @Vespersea @ty666-lang
+
+# 仓库构建配置与 CI（改动影响所有人，必须双人复核）
+/backend/pom.xml                    @Vespersea @wuchaoyang
+/.github/                           @Vespersea
+
+# Q&A 问答核心上下文
+/backend/co-qa/                     @ty666-lang
+
+# 声誉与发现上下文
+/backend/co-reputation/             @wuchaoyang
+/backend/co-discovery/              @wuchaoyang
+
+# 装配层：安全链、发件箱中继、Flyway 迁移
+/backend/co-bootstrap/              @Vespersea
+
+# 前端
+/frontend/                          @wuchaoyang
